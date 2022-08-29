@@ -22,6 +22,17 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
 ---
+## Project files 
+clone the git hub repository and navigate to the project-ml-microservice-kubernetes folder 
+This contains: 
+- The flask app app.py that contains the api endpoints 
+- A dockerfile which is to be completed. 
+- A Makefile which holds the commands for the application
+- run_docker.sh the file hold the steps to complete to run docker 
+- upload_docker.sh bash script to upload the docker image 
+- run_kubernetes to deploy a kubernetes cluster 
+- output_txt_files to show the output of your work. 
+
 
 ## Setup the Environment
 
