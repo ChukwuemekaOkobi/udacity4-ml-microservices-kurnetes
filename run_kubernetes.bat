@@ -7,7 +7,7 @@ set dockerpath=chukwuemekaokobi/flaskapp:latest
 
 : Step 2
 : Run the Docker Hub container with kubernetes
-kubectl run udacityapp --image=%dockerpath% --port=80
+kubectl run flaskapp --image=%dockerpath% --port=80
 
 
 : Step 3:
@@ -16,4 +16,4 @@ kubectl get pods
 
 : Step 4:
 : Forward the container port to a host
-kubectl port-forward udacityapp 8000:80
+kubectl port-forward flaskapp 8000:80
